@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed de instagram</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="https://www.instagram.com">
+          <i class="fa-brands fa-instagram"></i>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png" alt="Logo" width="100" height="25" class="d-inline-block align-text-top">
+        </a>
+      </div>
+      
+        
+        <!-- Botton crear publicación -->
+
+      <button type="button" class="btn btn-success btn btn-sm mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: xx-small; margin-left: 69%;">
+      Crear una publicación
+      </button>
+  
+    
+
+       <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Crear un nuevo post</h5>
+        <button type="button" class="btn-close" data-bs-success="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="message-text" class="col-form-label">Atención:</label>
+          <textarea class="form-control" id="message-text">Agrega el título de tu publicación aquí</textarea>
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-white"><i class="fas fa-camera"></i></button>
+              <button type="button" class="btn btn-white"><i class="fas fa-map-marker-alt"></i></button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-success">Crear una publicacion</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+         
+        <!-- boton dropdown -->
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secundary btn-sm dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+    <i class="fas fa-cog"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-lg-end">
+    <li><a class="dropdown-item" href="#">Perfil</a></li>
+    <li><a class="dropdown-item" href="#">Accesibilidad</a></li>
+    <li><a class="dropdown-item" href="#">Privacidad y datos</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#"><p class="text-danger">Cerrar Sesion</p></a></li>
+  </ul>
+</div>
+    </nav>
+
+<!-- boton mosaico -->
+<nav>
+  <div class="nav nav-tabs" id="nav-tabs" role="tablist" style="padding-left: 45%; border-color: white;">
+    <button class="nav-link active btn btn-secondary" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-square"></i> </button>
+    <button class="nav-link btn btn-secondary" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-th"></i></button>
+    </div>
+  </div>
+  </div>
+  </div>
+</nav>
+
+
+<!-- FOTOS 3X3 -->
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <div class="card-group">
+      <div class="card">
+        <img src="https://www.diariodelaribera.net/imagenes/noticias/pinzon-real.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://0d2ujxjiqkxw.cdn.shift8web.com/wp-content/uploads/gatos-cambio-estacion.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/9fb7355/2147483647/strip/false/crop/900x600+0+0/resize/900x600!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2019%2F04%2FVisita-Roma.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/58/48/cb/5848cb1497c870eaa2f0c173724b8cab.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.desguacesjoseluis.es/media/com_expautospro/images/big/341_648d6891be19c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://millatrece.com/wp-content/uploads/2023/03/KTM_Super_Duke_1290_RR_03-jpg.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://menorcatour.com/images/stories/360/playas/sonbou/SonBou21__10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://fotometeo.ame-web.org/albums/userpics/10795/1238/Amanecer_entre_canas.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://jerryviaja.com/wp-content/uploads/2020/09/jv_Nepal_001-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">  
+       </div>
+     </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+
+  
+
+<!-- fotos linia -->
+<!-- FOTO 1 -->
+<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+  <div class="container">
+  <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+  <div class="card-header bg-white border-white">
+    <div class="card-body">
+      <div class="row">
+        <div class="row justify-content justify-content-between align-items-center p-6">
+          <h3 class="col-10 card-title">Pajaro</h3>
+          <p class="col-2 card-text">1 / 9</p>
+      </div>
+     </div>
+    </div>
+  <div class="card-body">
+    <img src="https://www.diariodelaribera.net/imagenes/noticias/pinzon-real.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card-footer bg-transparent border-white"><strong> 250 Me gustas</strong>
+    <p>El animal mas libre del mundo</p>
+  </div>
+  </div>
+  </div>
+</div>
+
+  <!-- FOTO 2 -->
+ <div class="container">
+    <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+      <div class="card-header bg-white border-white">
+      <div class="card-body">
+        <div class="row">
+          <div class="row justify-content justify-content-between align-items-center p-6">
+            <h3 class="col-10 card-title mb-0">Felino</h3>
+            <p class="col-2 card-text">2 / 9</p>
+        </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <img src="https://0d2ujxjiqkxw.cdn.shift8web.com/wp-content/uploads/gatos-cambio-estacion.jpg"class="card-img-top" alt="...">
+      </div>
+      <div class="card-footer bg-transparent border-white"><strong> 300 Me gustas</strong>
+        <p>Uno de los animales mas inteligentes del mundo,aunque se crea todo lo contrario.</p>
+      </div>
+      </div>
+    </div>
+ </div>
+
+      <!-- FOTO 3 -->
+    <div class="container">
+    <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+      <div class="card-header bg-white border-white">
+      <div class="card-body">
+        <div class="row">
+          <div class="row justify-content justify-content-between align-items-center p-6">
+            <h3 class="col-10 card-title mb-0">Roma</h3>
+            <p class="col-2 card-text">3 / 9</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/9fb7355/2147483647/strip/false/crop/900x600+0+0/resize/900x600!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2019%2F04%2FVisita-Roma.jpg"class="card-img-top" alt="...">
+      </div>
+      <div class="card-footer bg-transparent border-white"><strong> 1050 Me gustas</strong>
+        <p>Roma es una ciudad italiana, capital de la región del Lacio y de Italia.</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+      <!-- FOTO 4 -->
+    <div class="container">
+    <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+      <div class="card-header bg-white border-white">
+      <div class="card-body">
+        <div class="row">
+          <div class="row justify-content justify-content-between align-items-center p-6">
+            <h3 class="col-10 card-title mb-0">Pomerania</h3>
+            <p class="col-2 card-text">4 / 9</p>
+      </div>
+        </div>
+    </div>
+      <div class="card-body">
+        <img src="https://i.pinimg.com/originals/58/48/cb/5848cb1497c870eaa2f0c173724b8cab.jpg"class="card-img-top" alt="...">
+    </div>
+      <div class="card-footer bg-transparent border-white"><strong> 15.000 Me gustas</strong>
+        <p>El Pomerania no supera los 3,5 Kg de peso y, a diferencia de lo que ocurre en otras razas, las hembras pesan más que los machos (1,5 Kg de media aproximadamente).</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+      <!-- FOTO 5 -->
+    <div class="container">
+    <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+      <div class="card-header bg-white border-white">
+      <div class="card-body">
+        <div class="row">
+          <div class="row justify-content justify-content-between align-items-center p-6">
+            <h5 class="col-10 card-title mb-0">Golf serie 7</h5>
+            <p class="col-2 card-text">5 / 9</p>
+      </div>
+    </div>
+      </div>
+      <div class="card-body">
+        <img src="https://www.desguacesjoseluis.es/media/com_expautospro/images/big/341_648d6891be19c.jpg"class="card-img-top" alt="...">
+      </div>
+      <div class="card-footer bg-transparent border-white"><strong> 2.000 Me gustas</strong>
+        <p>El Golf 7 utiliza la misma Plataforma MQB que la tercera generación del Audi A3, del SEAT León y del Škoda Octavia.</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+      <!-- FOTO 6 -->
+    <div class="container">
+    <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+      <div class="card-header bg-white border-white">
+      <div class="card-body">
+        <div class="row">
+          <div class="row justify-content justify-content-between align-items-center p-6">
+            <h3 class="col-10 card-title mb-0">Ktm super Duke</h3>
+            <p class="col-2 card-text">6 / 9</p>
+          </div>
+      </div>
+      </div>
+      <div class="card-body">
+        <img src="https://millatrece.com/wp-content/uploads/2023/03/KTM_Super_Duke_1290_RR_03-jpg.webp"class="card-img-top" alt="...">
+      </div>
+      <div class="card-footer bg-transparent border-white"><strong> 100 Me gustas</strong>
+        <p>La KTM 1290 Super Duke R es una de las maxinaked más radicales del mercado, con una estética rompedora y que fue totalmente renovada en 2020</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+      <!-- FOTO 7 -->
+    <div class="container">
+    <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+      <div class="card-header bg-white border-white">
+      <div class="card-body">
+        <div class="row">
+          <div class="row justify-content justify-content-between align-items-center p-6">
+            <h3 class="col-10 card-title mb-0">Playas paradisiacas</h3>
+            <p class="col-2 card-text">7 / 9</p>
+          </div>
+      </div>
+      </div>
+      <div class="card-body">
+        <img src="https://menorcatour.com/images/stories/360/playas/sonbou/SonBou21__10.jpg"class="card-img-top" alt="...">
+      </div>
+      <div class="card-footer bg-transparent border-white"><strong> 2.000 Me gustas</strong>
+        <p>Arena blanca, agua tranquila y poca profundidad, se podría decir que esas son las tres características principales de una playa paradisiaca, pero si a estas virtudes se les agrega una belleza irreal el lugar se convierte en sublime.</p>
+      </div>
+      </div>
+    </div>
+    </div>
+
+      <!-- FOTO 8 -->
+      <div class="container">
+      <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+        <div class="card-header bg-white border-white">
+        <div class="card-body">
+          <div class="row">
+            <div class="row justify-content justify-content-between align-items-center p-6">
+          <h3 class="col-10 card-title mb-0">Puestas de sol</h3> 
+          <p class="col-2 card-text">8 / 9</p>
+            </div>
+        </div>
+      </div>
+        <div class="card-body">
+          <img src="https://fotometeo.ame-web.org/albums/userpics/10795/1238/Amanecer_entre_canas.JPG"class="card-img-top" alt="...">
+        </div>
+        <div class="card-footer bg-transparent border-white"><strong> 2.000 Me gustas</strong>
+          <p>el momento del atardecer o el anochecer, cuando el astro rey se pone, se oculta o desaparece en el horizonte.12 jul 2022</p>
+        </div>
+        </div>
+      </div>
+      </div>
+
+  <!-- foto 9 -->
+        <div class="container">
+          <div class="card border-green" style="max-width: 30rem; margin-top: 5%; margin-left: 30%;">
+             <div class="card-header bg-white border-white">
+              <div class="card-body">
+                <div class="row">
+                  <div class="row justify-content justify-content-between align-items-center p-6">
+                <h3 class="col-10 card-title mb-0">Montañas</h3> 
+                <p class="col-2 card-text">9 / 9</p>
+              </div>
+                </div>
+                </div>
+          <div class="card-body">
+            <img src="https://jerryviaja.com/wp-content/uploads/2020/09/jv_Nepal_001-2.jpg"class="card-img-top" alt="...">
+          </div>
+          <div class="card-footer bg-transparent border-white"><strong> 2.000 Me gustas</strong>
+            <p>Una montaña es una figura topográfica del relieve terrestre positiva, una eminencia natural que se caracteriza por su altitud y, más generalmente, por su altura relativa, o incluso por su volumen, pendiente, espaciado o continuidad</p>
+          </div>
+       </div>
+    </div>
+  </div>
+</body>
+</html>
+        
+
